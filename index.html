@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./dist/animation css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="./dist/bootstrap css/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid bg-info">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header"></div>
+          <div>
+            </div>
+            <div id="question1">
+              <img
+                src="./images/phone.jpg"
+                alt="glass"
+                class="image"
+                id="image"
+              />
+              <h4>
+                <span class="label" id="qid">Question 1:</span>
+              </h4>
+              <h5>
+                <span class="label" id="qid"> How much time are you spendding on your phone on day?</span>
+              </h5>
+              <div class="modal-body">
+                <div class="col-xs-3 col-xs-offset-5"></div>
+                <div class="quiz" id="quiz" data-toggle="buttons">
+                  <label
+                    class="element-animation1 btn btn-lg btn-primary btn-block removeHover"                    >
+                    <input
+                      onclick="reply_click(this.id); scrolling(558)"
+                      type="button"
+                      name="q_answer"
+                      value="One hours or less"
+                      class="button"
+                      id="q1a1"
+                    /></label
+                  >
+                  <label
+                    class="element-animation2 btn btn-lg btn-primary btn-block"
+                    >
+                    <input
+                      onclick="reply_click(this.id); scrolling(558)"
+                      type="button"
+                      name="q_answer"
+                      value="Two hours"
+                      class="button"
+                      id="q1a2"
+                    /></label
+                  >
+                  <label
+                    class="element-animation3 btn btn-lg btn-primary btn-block"
+                    >
+                    <input
+                      onclick="reply_click(this.id); scrolling(558)"
+                      type="button"
+                      name="q_answer"
+                      value="Four hours"
+                      class="button"
+                      id="q1a3"
+                    /></label
+                  >
+                  <label
+                    class="element-animation4 btn btn-lg btn-primary btn-block"
+                    >
+                    <input
+                      onclick="reply_click(this.id); scrolling(558)" 
+                      type="button"
+                      name="q_answer"
+                      value="Five hours or more"
+                      class="button"
+                      id="q1a4"
+                    /></label
+                  >
+                </div>
+                <div class="modal-header up"></div>
+                <div id="question2">
+                    <img
+                      src="./images/glass.jpg"
+                      alt="glass"
+                      class="image"
+                      id="image"
+                    />
+                    <h4>
+                      <span class="label" id="qid">Question 2:</span>
+                    </h4>
+                    <h5>
+                      <span class="label" id="qid"> What's your biggest dream?</span>
+                    </h5>
+                    <div class="modal-body">
+                      <div class="col-xs-3 col-xs-offset-5"></div>
+                      <div class="quiz" id="quiz" data-toggle="buttons">
+                        <label
+                          class="element-animation1 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                            onclick="reply_click2(this.id); scrolling(1100)"
+                            type="radio"
+                            name="q_answer"
+                            value="1"
+                            class="radio1"
+                            id="q2a2"
+                          />Travel around the world</label
+                        >
+                        <label
+                          class="element-animation2 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                          onclick="reply_click2(this.id); scrolling(1100)"
+                          type="radio"
+                            name="q_answer"
+                            value="2"
+                            class="radio1"
+                            id="q1a4"
+                          />Establish a startup company</label
+                        >
+                        <label
+                          class="element-animation3 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                            onclick="reply_click2(this.id); scrolling(1100)"
+                            type="radio"
+                            name="q_answer"
+                            value="3"
+                            class="radio1"
+                            id="q2a3"
+                          />Be famous</label
+                        >
+                        <label
+                          class="element-animation4 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                            onclick="reply_click2(this.id); scrolling(1100)"
+                            type="radio"
+                            name="q_answer"
+                            value="4"
+                            class="radio1"
+                            id="q2a1"
+                          />Grow old alongside my partner</label
+                        >
+                      </div>
+                <div class="modal-header up"></div>
+              </div>
+              <div id="question3">
+                <img
+                  src="./images/sleep.jpg"
+                  alt="glass"
+                  class="image"
+                  id="image"
+                />
+                <h4>
+                  <span class="label" id="qid">Question 3:</span>
+                </h4>
+                <h5>
+                  <span class="label" id="qid"> When do you go to sleep?</span>
+                </h5>
+                <div class="modal-body">
+                  <div class="col-xs-3 col-xs-offset-5"></div>
+                  <div class="quiz" id="quiz" data-toggle="buttons">
+                    <label
+                      class="element-animation1 btn btn-lg btn-primary btn-block"
+                      >
+                      <input
+                        onclick="reply_click3(this.id); scrolling(1652)"
+                        type="checkbox"
+                        name="q_answer"
+                        value="1"
+                        class="radio"
+                        id="q3a4"
+                      />20:00</label
+                    >
+                    <label
+                      class="element-animation2 btn btn-lg btn-primary btn-block"
+                      >
+                      <input
+                        onclick="reply_click3(this.id); scrolling(1652)"
+                        type="checkbox"
+                        name="q_answer"
+                        value="2"
+                        class="radio"
+                        id="q3a3"
+                      />22:00</label
+                    >
+                    <label
+                      class="element-animation3 btn btn-lg btn-primary btn-block"
+                      >
+                      <input
+                        onclick="reply_click3(this.id); scrolling(1652)"
+                        type="checkbox"
+                        name="q_answer"
+                        value="3"
+                        class="radio"
+                        id="q3a2"
+                      />00:00</label
+                    >
+                    <label
+                      class="element-animation4 btn btn-lg btn-primary btn-block"
+                      >
+                      <input
+                        onclick="reply_click3(this.id); scrolling(1652)"
+                        type="checkbox"
+                        name="q_answer"
+                        value="4"
+                        class="radio"
+                        id="q3a1"
+                      />02:00</label
+                    >
+                  </div>
+                  <div class="modal-header up"></div>
+                </div>
+                <div id="question4">
+                  <img
+                    src="./images/Superman.jfif"
+                    alt="glass"
+                    class="image"
+                    id="image"
+                  />
+                  <h4>
+                    <span class="label" id="qid">Question 4:</span>
+                  </h4>
+                  <h5>
+                    <span class="label" id="qid"> Who is your favorite suprhero?</span>
+                  </h5>
+                  <div class="modal-body">
+                    <div class="col-xs-3 col-xs-offset-5"></div>
+                    <div class="quiz" id="quiz" data-toggle="buttons">
+                      <label
+                        class="element-animation1 btn btn-lg btn-primary btn-block"
+                        >
+                        <input
+                          onclick="reply_click4(this.id); scrolling(2222)"
+                          type="text"
+                          name="q_answer"
+                          value="Superman"
+                          class="text"
+                          id="q4a1"
+                        /></label
+                      >
+                      <label
+                        class="element-animation2 btn btn-lg btn-primary btn-block"
+                        >
+                        <input
+                          onclick="reply_click4(this.id); scrolling(2222)"
+                          type="text"
+                          name="q_answer"
+                          value="Wonder Woman"
+                          class="text"
+                          id="q4a2"
+                        />
+                        </label
+                      >
+                      <label
+                        class="element-animation3 btn btn-lg btn-primary btn-block"
+                        >
+                        <input
+                          onclick="reply_click4(this.id); scrolling(2222)"
+                          type="text"
+                          name="q_answer"
+                          value="X-Men"
+                          class="text"
+                          id="q4a3"
+                        /></label
+                      >
+                      <label
+                        class="element-animation4 btn btn-lg btn-primary btn-block"
+                        >
+                        <input
+                          onclick="reply_click4(this.id); scrolling(2222)"
+                          type="text"
+                          name="q_answer"
+                          value="Doctor Strange"
+                          class="text"
+                          id="q4a4"
+                        /></label
+                      >
+                    </div>
+                    <div class="modal-header up"></div>
+                  </div>
+                  <div id="question5">
+                    <img
+                      src="./images/family.jfif"
+                      alt="glass"
+                      class="image"
+                      id="image"
+                    />
+                    <h4>
+                      <span class="label" id="qid">Question 5:</span>
+                    </h4>
+                    <h5>
+                      <span class="label" id="qid"> What is your age?</span>
+                    </h5>
+                    <div class="modal-body">
+                      <div class="col-xs-3 col-xs-offset-5"></div>
+                      <div class="quiz" id="quiz" data-toggle="buttons">
+                        <label
+                          class="element-animation1 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                            onclick="reply_click5(this.id)"
+                            type="color"
+                            name="q_answer"
+                            value="#00FFFF"
+                            class="color"
+                            id="q5a1"
+                          />0-18</label
+                        >
+                        <label
+                          class="element-animation2 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                            onclick="reply_click5(this.id)"
+                            type="color"
+                            name="q_answer"
+                            value="#AB3220"
+                            class="color"
+                            id="q5a2"
+                          />19-30</label
+                        >
+                        <label
+                          class="element-animation3 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                            onclick="reply_click5(this.id)"
+                            type="color"
+                            name="q_answer"
+                            value="#7CFC00"
+                            class="color"
+                            id="q5a3"
+                          />41-60</label
+                        >
+                        <label
+                          class="element-animation4 btn btn-lg btn-primary btn-block"
+                          >
+                          <input
+                            onclick="reply_click5(this.id)"
+                            type="color"
+                            name="q_answer"
+                            value="#C71585"
+                            class="color"
+                            id="q5a4"
+                          />61+</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="message" id="message1" style="display:none">You are a family person</div>
+                  <div class="message" id="message2" style="display:none">Looking forward to a bright future</div>
+                  <div class="message" id="message3" style="display:none">You're adorable, smile!</div>
+                  <div class="message" id="message4" style="display:none">For you ... The Elder Dance</div>
+                </div>
+                <div>
+                  <img class="centerTheGif" id="img1" src='./images/family.gif' style="display:none">
+                  <img class="centerTheGif" id="img2" src='./images/claps.gif' style="display:none">
+                  <img class="centerTheGif" id="img3" src='./images/smile.gif' style="display:none">
+                  <img class="centerTheGif" id="img4" src='./images/old.gif' style="display:none">
+                </div>
+        </div>
+      </div>
+    </div>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/index.js">
+    </script>
+  </body>
+</html>
